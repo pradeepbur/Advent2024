@@ -1,0 +1,21 @@
+# ignore terraform state and module files
+.terraform/
+.terraform/*
+*/.terraform/*
+*.tfstate*
+secrets.local.tf
+*.log
+*.plan
+.DS_Store
+.DS_Store?
+module-devontest
+stack-devontest.tf
+override.tf
+*.sw[op]
+*.zip
+*.exe
+*~
+\#*\#
+mfa.out
+.terraform.lock.hcl
+.vscode/
