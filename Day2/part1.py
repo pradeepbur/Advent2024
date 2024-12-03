@@ -1,6 +1,6 @@
 safe = 0
-file_path = "part1-example.txt"
-# file_path = "part1-input.txt"
+# file_path = "part1-example.txt"
+file_path = "part1-input.txt"
 try:
     with open(file_path, "r") as file:
         lines = file.readlines()
